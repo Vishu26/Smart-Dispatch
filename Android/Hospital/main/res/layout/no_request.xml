@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:paddingTop="13dp"
+            android:text="Smart Dispatch"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everyone's healthy,
+Hope you are too"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="36sp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
